@@ -21,6 +21,12 @@ git reset HEAD 파일명
 git reset HEAD # 전부취소
 ```
 
+## 최근 커밋 취소
+
+```bash
+git reset --soft HEAD^ # staged 상태로 파일은 보존하고 커밋만 취소
+```
+
 ## 별칭 사용하기
 
 ```bash
